@@ -4,14 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: rgb(0, 0, 58);
+        text-align: center;
+        color: rgb(250, 250, 250);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h1 {
+        margin: 2rem auto 1rem;
+      }
+      label {
+        display: block;
+        margin: 1rem;
+        font-size: 1.5rem;
+      }
+      input {
+        margin: 1rem;
+        font-size: 1.5rem;
+        padding: 0.2rem 0.6rem;
+      }
+      button {
+        font-size: 1.5rem;
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+      }
+    </style>
     <title>BMI Calculator</title>
   </head>
   <body>
     <h1>BMI Calculator</h1>
-    <form action="bmi.js" method="post">
-      <input type="number" name="ht" placeholder="enter height in cm" />
-      <input type="number" name="wt" placeholder="enter weight in kg" />
-      <button type="submit" name="submit">Calculate</button>
+    <form action="/" method="post">
+      <label
+        >Height :
+        <input type="number" name="ht" placeholder="enter height in cm"
+      /></label>
+      <label
+        >Weight :
+        <input type="number" name="wt" placeholder="enter weight in kg"
+      /></label>
+      <button type="submit">Calculate</button>
     </form>
   </body>
 </html>
