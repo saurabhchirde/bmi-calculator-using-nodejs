@@ -1,0 +1,15 @@
+{
+  "name": "bmi-calculator-using-nodejs",
+  "version": "1.0.0",
+  "description": "Bmi calculator using node js as backend and html as frontend",
+  "main": "bmi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saurabh Chirde",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
